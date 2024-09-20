@@ -15,7 +15,5 @@ jobs:
         run: cd ./02StartingProject
       - name: install dependencies
         run: npm ci
-        working-directory: ./02StartingProject
       - name: Run tests
         run: npm test
-        working-directory: ./02StartingProject
