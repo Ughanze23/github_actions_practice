@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 20
       - name: change working directory
-        run: cd ./02startingProject
+        run: cd ./02StartingProject
       - name: install dependencies
         run: npm ci
       - name: Run tests
