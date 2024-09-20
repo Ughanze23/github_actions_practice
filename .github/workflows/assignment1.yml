@@ -17,7 +17,7 @@ jobs:
         run: npm ci
         working-directory: ./04PracticeProject
       - name: lint cpde
-        run: npm lint
+        run: npm run lint
         working-directory: ./04PracticeProject
       - name: run tests
         run: npm test
