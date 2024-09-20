@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greet
-        run: echo "Hello!!""
+        run: echo "Hello!!"
       - name: say bye
         run: echo "bye bye"
