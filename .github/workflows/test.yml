@@ -11,6 +11,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
+      - name: change working directory
+        run: cd ./02startingProject
       - name: install dependencies
         run: npm ci
       - name: Run tests
