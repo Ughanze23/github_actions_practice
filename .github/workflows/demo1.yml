@@ -1,9 +1,5 @@
 name: Deplpoy website
 on:
-  pull_request:
-    types:
-      - opened
-  workflow_dispatch:
   push:
     branches:
       - main
@@ -45,8 +41,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: dist-files
-          path: dist
-  
+          path: ./01StartingProject2/dist
+          
   deploy:
     needs: build
     runs-on: unbuntu-latates
